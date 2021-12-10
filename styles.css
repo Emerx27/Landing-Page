@@ -69,6 +69,7 @@ font-family: 'Poppins', sans-serif; */
   font-family: 'Poppins', sans-serif;
   line-height: 1.5;
   font-weight: 600;
+  font-size: 4rem;
 }
 
 
@@ -78,7 +79,6 @@ font-family: 'Poppins', sans-serif; */
 }
 
 .content p {
-  margin-bottom: 4rem;
   line-height: 2;
 }
 
@@ -115,16 +115,20 @@ font-family: 'Poppins', sans-serif; */
 @media (min-width: 1200px) {
   .footer {
     display: flex;
-    justify-content: flex-end;
+    justify-content: end;
     margin: 0 auto;
     gap: 2rem;
   }
 }
 
 .icon {
-  width: 6rem;
-  padding: 1.6rem;
+  padding: .3rem .5rem;
+  width: 4rem;
   fill: white;
+}
+
+svg {
+  width: 3rem;
 }
 
 .icon-border {
@@ -137,5 +141,5 @@ font-family: 'Poppins', sans-serif; */
 }
 
 .icon-border:hover {
-  border: 1px solid hsl(300, 69%, 71%);
+  border: 1.5px solid hsl(300, 69%, 71%);
 }
