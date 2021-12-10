@@ -1,0 +1,98 @@
+html {
+    /* 1rem = 10px */
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+
+  *, *:before, :after {
+    box-sizing: inherit;
+}
+
+  body {
+    font-size: 1.6rem;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(../images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 4rem;
+}  
+
+a {
+  text-decoration: none;
+}
+
+/* font-family: 'Open Sans', sans-serif;
+
+font-family: 'Poppins', sans-serif; */
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.logo {
+  margin-top: 5rem;
+  margin-bottom: 5em;
+}
+
+@media (min-width: 768px) {
+  .principal-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5rem;
+  }
+}
+
+.content h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+.content {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.content p {
+  margin-bottom: 3rem;
+  line-height: 2;
+}
+
+.btn {
+  background-color: white;
+  padding: 1.2rem 6rem;
+  border-radius: 5rem;
+  font-size: 2rem;
+  color: hsl(257, 40%, 49%);
+}
+
+.btn:hover {
+  color: white;
+  background-color: hsl(300, 69%, 71%);
+  transition: .2s all ease-in-out;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 2rem;
+}
+
+.icon {
+  width: 7.5rem;
+  padding: 1.8rem;
+  fill: white;
+}
+
+.icon-border {
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.icon:hover {
+  fill: hsl(300, 69%, 71%);
+}
+
+.icon-border:hover {
+  border: 1px solid hsl(300, 69%, 71%);
+}
